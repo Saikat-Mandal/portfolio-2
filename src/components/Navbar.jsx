@@ -6,9 +6,9 @@ function Navbar() {
         <div className='logo'>logo here</div>
 
         <ul className='nav-right'>
-          <li>Home</li>
-          <li>Experience</li>
-          <li>Services</li>
+          <li>HOME</li>
+          <li>EXPERIENCE</li>
+          <li>BLOGS</li>
         </ul>
     </div>
   )

@@ -9,8 +9,8 @@ function Home() {
         <div className="home-main">
             <div className="container">
             <div className="left-container">
-                <h1 className='left-heading'>Hi,<br/> I am Saikat</h1>
-                <p className='left-para'>I'm an independent creative developer from<br/> Pune, Maharashtra.</p>
+                <p className='left-heading'>Hi,<br/> I am <strong>Saikat</strong></p>
+                <p className='left-para'>I'm an <strong>independent creative developer</strong> from<br/> Pune, Maharashtra.</p>
               
            </div>
             <div className="right-container">

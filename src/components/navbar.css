@@ -3,13 +3,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  font-family: sans-serif;
 }
 .nav-right {
   display: flex;
   align-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
   list-style: none;
+  letter-spacing: 0.3em;
 }
 li {
-  margin-left: 1rem;
+  margin-left: 2rem;
   cursor: pointer;
 }
