@@ -3,7 +3,7 @@
   /* background-color: blue; */
 }
 .home-parent {
-  background-color: #f4f9fc;
+  /* background-color: #f4f9fc; */
 }
 .container {
   display: flex;
@@ -38,4 +38,11 @@ hr {
 .hr-div {
   width: 7%;
   margin-left: 1rem;
+}
+.button1 {
+  margin-top: 2rem;
+  z-index: 3;
+}
+.first {
+  padding: 5rem 0;
 }

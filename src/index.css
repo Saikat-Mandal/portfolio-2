@@ -1,44 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto+Slab&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
 }
 
 .main-app {
   color: #0f1b61;
   /* background-color: #f4f9fc; */
-  padding: 1.5rem;
+  /* background-color: #f4f9fc; */
+  z-index: -10;
+  margin: 1.5rem;
   min-height: 90vh;
 }
-
-.blog {
-  padding: 0.8em 1em;
-  border: 3px solid #7f00e0;
-  color: #7f00e0;
-  /* border-radius: 0.8em; */
-  position: relative;
+.build {
+  font-size: 1.5rem;
+  padding: 2rem 0;
 }
-
-.blog:after {
-  position: absolute;
-  content: "";
-  top: 7px;
-  left: 7px;
-  background-color: #aadcec;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: 0.3s;
+.section-heading2 {
+  font-size: 4rem;
 }
-.blog:hover::after {
-  top: 0px;
-  left: 0px;
-}
-
-.d {
-  z-index: 2;
-}
-
-.m {
-  z-index: 14;
+.first {
+  display: flex;
+  justify-content: space-between;
 }
