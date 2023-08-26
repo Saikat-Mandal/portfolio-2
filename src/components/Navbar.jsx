@@ -8,7 +8,9 @@ function Navbar() {
         <ul className='nav-right'>
           <li>HOME</li>
           <li>EXPERIENCE</li>
-          <li>BLOGS</li>
+          <div className='d'>
+          <li className='blog'>BLOGS</li>
+          </div>
         </ul>
     </div>
   )

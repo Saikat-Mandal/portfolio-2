@@ -1,5 +1,9 @@
 .home-main {
   padding: 4rem 0 0 0;
+  /* background-color: blue; */
+}
+.home-parent {
+  background-color: #f4f9fc;
 }
 .container {
   display: flex;
@@ -17,4 +21,21 @@
 }
 .img {
   height: 20rem;
+}
+.section-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 2rem 0 0 0;
+}
+hr {
+  border-top: 3px solid #73bbc5;
+  outline: none;
+  margin: 1rem 0;
+}
+.second-section {
+  margin: 20em 10em 0 10em;
+}
+.hr-div {
+  width: 7%;
+  margin-left: 1rem;
 }
