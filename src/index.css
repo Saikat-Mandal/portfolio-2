@@ -9,7 +9,7 @@
 .main-app {
   color: #0f1b61;
   /* background-color: #f4f9fc; */
-  /* background-color: #f4f9fc; */
+  background-color: #f4f9fc;
   z-index: -10;
   margin: 1.5rem;
   min-height: 90vh;

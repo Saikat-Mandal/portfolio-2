@@ -1,10 +1,34 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import "./home.css"
+import { useAnimate , motion, usePresence, delay } from "framer-motion"
 import image from "../assets/profile.jpg"
 import Button from '../components/Button'
 function Home() {
+  // const [isPresent , safeToRemove] = usePresence()
+  // const [scope , animate] = useAnimate()
+
+  // useEffect(()=>{
+  //   if(isPresent){
+  //   const enterAnimation =async ()=>{
+  //       await animate(scope.current , {y:[ -100 ,100]} , {duration: 0.8} )
+  //     }
+  //     enterAnimation()
+  //   }
+  //   else{
+  //     const exitAnimation =async ()=>{
+  //       await animate(scope.current , {opacity:[1,0]} , {duration: 0.5} ,{delay :0.2})
+  //       safeToRemove()
+  //     }
+  //     exitAnimation()
+  //   }
+  // })
+
+
   return (
-    <div className='home-parent'>
+    <motion.div
+    animate={{y:[-200 , 0]}}
+    transition={{duration:0.8}}
+    className='home-parent'>
  
         <div className="home-main">
             <div className="container">
@@ -69,7 +93,7 @@ function Home() {
          </div>
         </section>
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,0 +1,27 @@
+.blog1 {
+  padding: 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.date {
+  display: flex;
+  align-items: center;
+  color: #ff5708;
+  font-size: 1.8rem;
+}
+
+.blog1-right h1 {
+  font-size: 2rem;
+}
+.blog1-right p {
+  /* padding-top: 1.2em; */
+}
+.hr2 {
+  border-top: 1px solid #ff5708;
+  outline: none;
+  margin: 1rem 0;
+}
+.hr-div-bottom {
+  margin: 3em 10em;
+}
