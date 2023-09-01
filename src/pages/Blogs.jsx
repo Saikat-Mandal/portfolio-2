@@ -1,6 +1,6 @@
 import React from 'react'
 import "./blogs.css"
-import { useAnimate , motion, usePresence, delay } from "framer-motion"
+import {motion } from "framer-motion"
 import Blog from '../components/Blog'
 import data from "../assets/blogData"
 function Blogs() {

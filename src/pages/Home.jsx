@@ -1,6 +1,6 @@
-import React , {useEffect} from 'react'
+import React  from 'react'
 import "./home.css"
-import { useAnimate , motion, usePresence, delay } from "framer-motion"
+import { motion} from "framer-motion"
 import image from "../assets/profile.jpg"
 import Button from '../components/Button'
 function Home() {
